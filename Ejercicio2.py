@@ -1,0 +1,6 @@
+print("Dime el lo que mide la base del rectangulo")
+medbase = (int)(input())
+print("Dime también la altura del rectangulo")
+medaltura = (int)(input())
+print("El área del rectangulo es", medbase * medaltura)
+print("El perimetro del rectangulo es", 2*medbase+medaltura*2)
