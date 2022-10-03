@@ -1,6 +1,6 @@
+from cmath import sqrt
 import math
-print("Dime uno de los catetos")
-catet1 = (int)(input())
-print("Dime el otro cateto")
-catet2 = (int)(input())
-print("La hipotenusa del triangulo es", math.sqrt(catet1^2+catet2^2))
+print("Dime lo que mide los catetos respectivamente")
+catet1 = int(input())
+catet2 = int(input())
+print("La hipotenusa mide", math.sqrt(catet1*catet1+catet2*catet2))

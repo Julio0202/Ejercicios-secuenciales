@@ -1,6 +1,7 @@
-print("Dime el lo que mide la base del rectangulo")
-medbase = (int)(input())
-print("Dime también la altura del rectangulo")
-medaltura = (int)(input())
-print("El área del rectangulo es", medbase * medaltura)
-print("El perimetro del rectangulo es", 2*medbase+medaltura*2)
+base = 0
+altura = 0
+base = (int)(input("Dime lo que mide la base \n"))
+print("Ahora dime lo que mide la altura")
+altura = (int)(input())
+print("El perimetro del rectangulo es", base*2+altura*2)
+print("El área del rectangulo es", base*altura)

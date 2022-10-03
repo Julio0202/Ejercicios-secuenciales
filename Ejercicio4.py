@@ -1,6 +1,7 @@
 print("Dime dos números")
-num1= (int)(input())
-num2= (int)(input())
-
-print("La suma de los dos es:"num1+num2)
-print
+num1 = int(input())
+num2 = int(input())
+print("La suma es", num1+num2)
+print("La resta es", num1-num2)
+print("La divisón es", num1/num2)
+print("La multiplicación es", num1*num2)
