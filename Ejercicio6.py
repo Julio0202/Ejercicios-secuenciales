@@ -1,0 +1,5 @@
+print("Dime 3 números")
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+print("La media es", (num1+num2+num3)/3)
