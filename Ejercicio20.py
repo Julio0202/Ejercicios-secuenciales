@@ -1,26 +1,17 @@
-euros = 0
-cent = 0
-euros_total = 0
-centimos_totales = 0
-print("Dime monedas de 1 euros tienes")
-euro1 = int(input())
-print("Dime cuantas monedas de 2 euros tienes")
-euro2 = int(input())
-print("Dime cuantas monedas de 50 centimos tienes")
+print("Dime cuántas monedas de 1 euros tienes")
+mon1 = int(input())
+print("Dime cuántas monedas de 2 euros tienes")
+mon2 = int(input())
+print("Dime cuántas monedas de 50 céntimos tienes")
 cent50 = int(input())
-print("DIme cuantas monedas de 20 centimos tienes")
+print("Dime cuántas monedas de 20 céntimos tienes")
 cent20 = int(input())
-print("Dime cuantas monedas de 10 centimos tienes")
+print("Dime cuántas monedas de 10 céntimos tienes")
 cent10 = int(input())
-if cent50>=2:
-    euros = cent50/2
-    cent += cent50%2*50
-if cent20>=5:
-    euros += cent20/5
-    cent += cent20%5*20
-if cent10>=10:
-    euros += cent10/10
-    cent += cent10%10*10
 
-euros_total = euros + euro1 + (euro2*2)
-print("Tienes un total de", int(euros_total), "y", cent, "centimos")
+centimos_totales = (cent50*50)+(cent20*20)+(cent10*10)
+euros_totales = mon1 + (mon2*2)
+centimos_a_euros = int(centimos_totales/100)
+centimos_restantes = centimos_totales%100
+
+print("Tienes un total de", euros_totales+centimos_a_euros, "euros y", centimos_restantes,"céntimos")
