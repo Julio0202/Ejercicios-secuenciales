@@ -1,0 +1,10 @@
+print("Dime el x1")
+x1 = int(input())
+print("Dime el x2")
+x2 = int(input())
+print("Dime el y1")
+y1 = int(input())
+print("Dime el y2")
+y2 = int(input())
+
+print("La distancia entre los dos puntos es",abs(((x1-x2)+(y1-y2))+((x1+x2)+(y1-y2))))
