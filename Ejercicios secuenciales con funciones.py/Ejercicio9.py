@@ -7,5 +7,4 @@ print("Dime lo que cuesta el producto")
 producto = int(input())
 print("Dime el porcentaje del descuento")
 porcentaje = int(input())
-
 print("En total costaría", descuento(porcentaje,producto))

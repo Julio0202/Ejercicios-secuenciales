@@ -11,6 +11,5 @@ def lista(base:int,altura:int):
     vdatos.append(imprimirArea(base,altura))
     vdatos.append(imprimirPerimetro(base,altura))
     return vdatos
-
 print("La lista es", lista(base,altura))
 
